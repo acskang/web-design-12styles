@@ -1,0 +1,10 @@
+[Unit]
+Description=webdesign showroom socket
+
+[Socket]
+ListenStream=/run/gunicorn_webdesign.sock
+SocketUser=www-data
+SocketGroup=www-data
+
+[Install]
+WantedBy=sockets.target

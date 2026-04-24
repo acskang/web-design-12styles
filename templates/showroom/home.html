@@ -1,0 +1,97 @@
+{% extends "showroom/base.html" %}
+{% load static i18n %}
+
+{% block title %}{% trans "Web Design Styles 12" %}{% endblock %}
+
+{% block content %}
+<section class="home-hero reveal">
+    <div class="home-hero__copy">
+        <p class="eyebrow">{% trans "Visual Learning Library" %}</p>
+        <h1
+            class="home-hero__title"
+            data-autofit-title
+            data-autofit-min="2.6"
+            data-autofit-max="6.2"
+        >{% trans "Web Design Styles 12" %}</h1>
+        <p class="lead">
+            {% blocktrans trimmed %}
+            A compact visual showroom for people who know the names of design styles
+            but want a clearer feel for how each one actually looks and behaves.
+            {% endblocktrans %}
+        </p>
+    </div>
+    <div class="hero-panel">
+        <p class="hero-panel__label">
+            {% blocktrans count count=style_count %}{{ count }} curated direction{% plural %}{{ count }} curated directions{% endblocktrans %}
+        </p>
+        <ul class="hero-panel__list">
+            <li>{% trans "Image-forward cards" %}</li>
+            <li>{% trans "Definition and visual cues" %}</li>
+            <li>{% trans "Quick recipes for recognition" %}</li>
+        </ul>
+    </div>
+</section>
+
+<section class="gallery reveal" aria-labelledby="gallery-heading">
+    <div class="section-heading">
+        <p class="eyebrow">{% trans "Design Gallery" %}</p>
+        <h2 id="gallery-heading">{% trans "Explore the 12 styles" %}</h2>
+    </div>
+
+    <div class="card-grid">
+        {% for style in styles %}
+        <article class="style-card" style="--stagger: {{ forloop.counter0 }};">
+            <a class="style-card__link" href="{% url 'showroom:detail' style.slug %}">
+                <div class="style-card__image-wrap">
+                    <img
+                        class="style-card__image"
+                        src="{% static style.thumbnail_image %}"
+                        alt="{% blocktrans with style_name=style.name %}{{ style_name }} thumbnail preview{% endblocktrans %}"
+                        loading="lazy"
+                    >
+                    {% if style.top_site %}
+                    <div
+                        class="style-card__site-preview"
+                        style="--preview-bg: {{ style.top_site.preview_background }}; --preview-ink: {{ style.top_site.preview_ink }};"
+                        data-preview-shell
+                        aria-hidden="true"
+                    >
+                        <img
+                            class="style-card__site-shot site-shot"
+                            src="{{ style.top_site.screenshot_url }}"
+                            alt=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer"
+                        >
+                        <div class="style-card__site-chip">
+                            <span class="style-card__site-rank">{{ style.top_site.rank_label }}</span>
+                            <span class="style-card__site-domain">{{ style.top_site.domain }}</span>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="style-card__body">
+                    <div class="style-card__header">
+                        <h3>{{ style.name }}</h3>
+                        <p>{{ style.subtitle }}</p>
+                    </div>
+                    <ul class="badge-list" aria-label="{% blocktrans with style_name=style.name %}{{ style_name }} keywords{% endblocktrans %}">
+                        {% for keyword in style.keywords %}
+                        <li>{{ keyword }}</li>
+                        {% endfor %}
+                    </ul>
+                    <div class="style-card__examples" aria-label="{% blocktrans with style_name=style.name %}{{ style_name }} representative sites{% endblocktrans %}">
+                        <p class="style-card__examples-label">{% trans "Live examples" %}</p>
+                        <p class="style-card__examples-list">
+                            {% for domain in style.site_domains %}
+                            <span>{{ domain }}</span>{% if not forloop.last %}<span class="style-card__examples-sep">•</span>{% endif %}
+                            {% endfor %}
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

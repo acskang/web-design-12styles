@@ -1,0 +1,73 @@
+{% load static i18n %}
+{% get_current_language as CURRENT_LANGUAGE %}
+<!DOCTYPE html>
+<html lang="{{ CURRENT_LANGUAGE }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% trans "Web Design Styles 12" %}{% endblock %}</title>
+    <meta
+        name="description"
+        content="{% trans 'A polished Django showroom that introduces 12 web design styles through visual cards and concise design guidance.' %}"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script defer src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="site-header__lead">
+                <a
+                    class="external-home-link"
+                    href="https://www.thesysm.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="{% trans 'Visit www.thesysm.com in a new tab' %}"
+                >
+                    www.thesysm.com
+                </a>
+                <a class="brand-mark" href="{% url 'showroom:home' %}">
+                    <span class="brand-mark__eyebrow">{% trans "Showroom" %}</span>
+                    <span class="brand-mark__title">{% trans "Web Design Styles 12" %}</span>
+                </a>
+            </div>
+            <nav class="site-nav" aria-label="{% trans 'Primary' %}">
+                <a href="{% url 'showroom:home' %}">{% trans "Gallery" %}</a>
+                <form action="{% url 'set_language' %}" method="post" class="language-switcher" aria-label="{% trans 'Language switcher' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                    <button
+                        type="submit"
+                        name="language"
+                        value="en"
+                        class="language-switcher__button{% if CURRENT_LANGUAGE == 'en' %} is-active{% endif %}"
+                        aria-pressed="{% if CURRENT_LANGUAGE == 'en' %}true{% else %}false{% endif %}"
+                    >
+                        EN
+                    </button>
+                    <button
+                        type="submit"
+                        name="language"
+                        value="ko"
+                        class="language-switcher__button{% if CURRENT_LANGUAGE == 'ko' %} is-active{% endif %}"
+                        aria-pressed="{% if CURRENT_LANGUAGE == 'ko' %}true{% else %}false{% endif %}"
+                    >
+                        KO
+                    </button>
+                </form>
+            </nav>
+        </header>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="site-footer">
+            <p>{% trans "A lightweight Django showroom for visually understanding common web design styles." %}</p>
+        </footer>
+    </div>
+</body>
+</html>

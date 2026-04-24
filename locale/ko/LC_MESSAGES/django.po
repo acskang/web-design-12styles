@@ -1,0 +1,1099 @@
+# Korean translations for design12.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: design12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-21 23:30+0900\n"
+"PO-Revision-Date: 2026-03-21 23:45+0900\n"
+"Last-Translator: OpenAI\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: showroom/data.py:15
+msgid "Minimalism"
+msgstr "미니멀리즘"
+
+#: showroom/data.py:16
+msgid "Quiet spacing, restrained color, and decisive hierarchy."
+msgstr "조용한 여백, 절제된 색상, 그리고 분명한 위계."
+
+#: showroom/data.py:19
+msgid "Calm"
+msgstr "차분함"
+
+#: showroom/data.py:19
+msgid "Editorial"
+msgstr "에디토리얼"
+
+#: showroom/data.py:19
+msgid "Whitespace"
+msgstr "여백"
+
+#: showroom/data.py:20
+msgid "Minimalism removes decorative noise so layout, typography, and spacing carry the experience. It depends on precision rather than abundance."
+msgstr "미니멀리즘은 장식적인 노이즈를 걷어내고 레이아웃, 타이포그래피, 간격이 경험을 이끌게 합니다. 풍부함보다 정밀함에 의존하는 스타일입니다."
+
+#: showroom/data.py:22
+msgid "Large margins and deliberate negative space."
+msgstr "넓은 마진과 의도적인 네거티브 스페이스."
+
+#: showroom/data.py:23
+msgid "One or two typefaces with strong scale contrast."
+msgstr "강한 크기 대비를 가진 한두 개의 서체."
+
+#: showroom/data.py:24
+msgid "A tight neutral palette with a single accent color."
+msgstr "하나의 포인트 컬러만 더한 절제된 뉴트럴 팔레트."
+
+#: showroom/data.py:27
+msgid "Premium brands and portfolio sites."
+msgstr "프리미엄 브랜드와 포트폴리오 사이트."
+
+#: showroom/data.py:28
+msgid "Products with strong photography or a focused value proposition."
+msgstr "강한 사진 자산이나 분명한 가치 제안을 가진 제품."
+
+#: showroom/data.py:29
+msgid "Landing pages that need fast visual comprehension."
+msgstr "빠른 시각적 이해가 필요한 랜딩 페이지."
+
+#: showroom/data.py:32
+msgid "Too little contrast can make the interface feel unfinished."
+msgstr "대비가 너무 약하면 인터페이스가 덜 완성된 느낌을 줄 수 있습니다."
+
+#: showroom/data.py:33
+msgid "Sparse layouts fail when the content hierarchy is unclear."
+msgstr "콘텐츠 위계가 불분명하면 성긴 레이아웃은 쉽게 무너집니다."
+
+#: showroom/data.py:34
+msgid "Weak imagery is exposed immediately."
+msgstr "약한 이미지는 바로 드러납니다."
+
+#: showroom/data.py:36
+msgid "Use a warm off-white background, one serif or grotesk pairing, a single accent, and let spacing do most of the work."
+msgstr "따뜻한 오프화이트 배경, 하나의 세리프나 그로테스크 조합, 단일 포인트 컬러를 쓰고 공간감이 대부분의 역할을 하게 두세요."
+
+#: showroom/data.py:38
+msgid "An especially strict minimal portfolio: sparse navigation, monochrome restraint, and generous empty space keep attention on the work itself."
+msgstr "특히 엄격한 미니멀 포트폴리오 예시입니다. 성긴 내비게이션, 단색 중심의 절제, 넉넉한 빈 공간이 작업 자체에 시선을 고정시킵니다."
+
+#: showroom/data.py:39
+msgid "Luxury ecommerce with disciplined typography, calm negative space, and product imagery given room to breathe."
+msgstr "정제된 타이포그래피, 차분한 여백, 충분한 호흡을 가진 제품 이미지가 돋보이는 럭셔리 이커머스 예시입니다."
+
+#: showroom/data.py:40
+msgid "Editorial minimalism built from soft tone, light composition, and a highly controlled visual tempo."
+msgstr "부드러운 톤, 가벼운 구성, 매우 통제된 시각적 리듬으로 만들어진 에디토리얼 미니멀리즘입니다."
+
+#: showroom/data.py:45
+msgid "Neo-Brutalism"
+msgstr "네오 브루탈리즘"
+
+#: showroom/data.py:46
+msgid "Bold blocks, thick borders, and unapologetic contrast."
+msgstr "대담한 블록, 두꺼운 경계선, 거침없는 대비."
+
+#: showroom/data.py:49
+msgid "Bold"
+msgstr "대담함"
+
+#: showroom/data.py:49
+msgid "Raw"
+msgstr "거침"
+
+#: showroom/data.py:49
+msgid "Graphic"
+msgstr "그래픽적"
+
+#: showroom/data.py:50
+msgid "Neo-Brutalism embraces hard edges, obvious structure, and an intentionally blunt visual language that feels direct and youthful."
+msgstr "네오 브루탈리즘은 날카로운 모서리, 드러나는 구조, 의도적으로 투박한 시각 언어를 통해 직설적이고 젊은 느낌을 만듭니다."
+
+#: showroom/data.py:52
+msgid "Heavy black outlines and offset shadows."
+msgstr "두꺼운 검은 외곽선과 오프셋 그림자."
+
+#: showroom/data.py:53
+msgid "High-contrast primaries or punchy candy colors."
+msgstr "강한 대비의 원색 또는 톡 쏘는 캔디 컬러."
+
+#: showroom/data.py:54
+msgid "Chunky buttons and playful, almost poster-like composition."
+msgstr "두툼한 버튼과 포스터에 가까운 장난기 있는 구성."
+
+#: showroom/data.py:57
+msgid "Creative tools and startup launches."
+msgstr "크리에이티브 툴과 스타트업 론칭."
+
+#: showroom/data.py:58
+msgid "Campaign microsites that need a memorable first impression."
+msgstr "강한 첫인상이 필요한 캠페인 마이크로사이트."
+
+#: showroom/data.py:59
+msgid "Brands that want to feel outspoken and internet-native."
+msgstr "직설적이고 인터넷 네이티브처럼 보이고 싶은 브랜드."
+
+#: showroom/data.py:62
+msgid "Overuse can feel noisy or gimmicky."
+msgstr "과하게 쓰면 시끄럽거나 가벼워 보일 수 있습니다."
+
+#: showroom/data.py:63
+msgid "Thick borders everywhere reduce hierarchy."
+msgstr "두꺼운 경계선을 과하게 쓰면 위계가 약해집니다."
+
+#: showroom/data.py:64
+msgid "Accessibility suffers if color and type choices are careless."
+msgstr "색과 타이포 선택이 부주의하면 접근성이 크게 떨어집니다."
+
+#: showroom/data.py:66
+msgid "Pair a bright background with black outlines, oversized labels, sticker-like cards, and drop shadows that look intentionally physical."
+msgstr "밝은 배경에 검은 외곽선, 큰 라벨, 스티커 같은 카드, 물리적으로 느껴지는 그림자를 조합해 보세요."
+
+#: showroom/data.py:68
+msgid "Still one of the clearest references for anti-polished web aesthetics: loud color, raw structure, and deliberate refusal of conventional refinement."
+msgstr "매끈함을 거부하는 웹 미학의 가장 분명한 참고 사례 중 하나입니다. 큰 색, 거친 구조, 전통적 정제를 의도적으로 거부합니다."
+
+#: showroom/data.py:69
+msgid "Aggressive numbering, sparse raw typography, and anti-design presentation push the site into a strong contemporary brutalist attitude."
+msgstr "공격적인 숫자 사용, 성기고 거친 타이포그래피, 안티디자인 프레젠테이션이 이 사이트를 강한 현대 브루탈리즘 태도로 이끕니다."
+
+#: showroom/data.py:70
+msgid "Poster-like yellow-black contrast, oversized headlines, and heavy visual blocks make the brand feel loud and blunt in a neo-brutalist way."
+msgstr "포스터 같은 노랑-검정 대비, 큰 헤드라인, 무거운 시각 블록이 브랜드를 네오 브루탈리즘답게 시끄럽고 직설적으로 보이게 합니다."
+
+#: showroom/data.py:75
+msgid "Glassmorphism"
+msgstr "글래스모피즘"
+
+#: showroom/data.py:76
+msgid "Translucent layers floating over luminous backgrounds."
+msgstr "빛나는 배경 위에 떠 있는 반투명 레이어."
+
+#: showroom/data.py:79
+msgid "Frosted"
+msgstr "서리 낀"
+
+#: showroom/data.py:79
+msgid "Layered"
+msgstr "레이어드"
+
+#: showroom/data.py:79
+msgid "Luminous"
+msgstr "빛나는"
+
+#: showroom/data.py:80
+msgid "Glassmorphism uses blurred, semi-transparent surfaces to create depth, softness, and a polished operating-system feel."
+msgstr "글래스모피즘은 흐림과 반투명 표면을 사용해 깊이감, 부드러움, 세련된 OS 같은 느낌을 만듭니다."
+
+#: showroom/data.py:82
+msgid "Frosted panels with blur and translucent fills."
+msgstr "블러와 반투명 채움이 있는 서리 낀 패널."
+
+#: showroom/data.py:83
+msgid "Soft highlights, thin borders, and layered glow."
+msgstr "부드러운 하이라이트, 얇은 테두리, 겹쳐진 글로우."
+
+#: showroom/data.py:84
+msgid "Gradients or color clouds behind the glass."
+msgstr "유리 뒤에 놓인 그라디언트나 색 구름."
+
+#: showroom/data.py:87
+msgid "Concept demos and premium dashboards."
+msgstr "컨셉 데모와 프리미엄 대시보드."
+
+#: showroom/data.py:88
+msgid "Interfaces that benefit from a sense of depth."
+msgstr "깊이감이 도움이 되는 인터페이스."
+
+#: showroom/data.py:89
+msgid "Brands aiming for a polished, futuristic tone."
+msgstr "세련되고 미래적인 톤을 원하는 브랜드."
+
+#: showroom/data.py:92
+msgid "Too much blur kills readability."
+msgstr "블러가 과하면 가독성이 떨어집니다."
+
+#: showroom/data.py:93
+msgid "Without a strong background, the effect looks flat."
+msgstr "배경이 약하면 효과가 평면적으로 보입니다."
+
+#: showroom/data.py:94
+msgid "Performance can suffer if effects are overused."
+msgstr "효과를 과하게 쓰면 성능이 떨어질 수 있습니다."
+
+#: showroom/data.py:96
+msgid "Start with an aurora background, place translucent cards above it, then add subtle blur, faint borders, and restrained glow."
+msgstr "오로라 배경에서 시작해 그 위에 반투명 카드를 올리고, 섬세한 블러, 희미한 테두리, 절제된 글로우를 더해보세요."
+
+#: showroom/data.py:98
+msgid "A direct style reference built around frosted cards, layered transparency, and luminous backgrounds rather than generic marketing visuals."
+msgstr "일반적인 마케팅 비주얼보다 서리 낀 카드, 겹겹의 투명도, 빛나는 배경에 집중한 직접적인 스타일 참고 사례입니다."
+
+#: showroom/data.py:99
+msgid "A modern gallery of liquid-glass patterns that makes blur, translucency, and floating depth easy to compare at a glance."
+msgstr "블러, 반투명성, 떠 있는 깊이감을 한눈에 비교할 수 있게 해주는 현대적인 리퀴드 글래스 패턴 갤러리입니다."
+
+#: showroom/data.py:100
+msgid "A glassmorphism generator whose entire interface revolves around translucent panels and blur-heavy card treatment."
+msgstr "전체 인터페이스가 반투명 패널과 블러 중심 카드 처리 위에 놓인 글래스모피즘 생성기입니다."
+
+#: showroom/data.py:105
+msgid "Neumorphism"
+msgstr "뉴모피즘"
+
+#: showroom/data.py:106
+msgid "Soft extrusions and gentle depth from light and shadow."
+msgstr "빛과 그림자가 만드는 부드러운 돌출감과 완만한 깊이."
+
+#: showroom/data.py:109
+msgid "Soft"
+msgstr "부드러움"
+
+#: showroom/data.py:109
+msgid "Tactile"
+msgstr "촉각적"
+
+#: showroom/data.py:109
+msgid "Embossed"
+msgstr "양각 느낌"
+
+#: showroom/data.py:110
+msgid "Neumorphism simulates surfaces pressed into or raised out of the background with subtle shadows rather than obvious borders."
+msgstr "뉴모피즘은 명확한 테두리 대신 섬세한 그림자로 배경에 눌리거나 떠오른 표면을 시뮬레이션합니다."
+
+#: showroom/data.py:112
+msgid "Monochrome surfaces with soft dual shadows."
+msgstr "부드러운 이중 그림자를 가진 단색 표면."
+
+#: showroom/data.py:113
+msgid "Rounded geometry and low-contrast edges."
+msgstr "둥근 형태와 낮은 대비의 가장자리."
+
+#: showroom/data.py:114
+msgid "Controls that look pressed, inset, or pillowy."
+msgstr "눌리거나 파묻히거나 폭신해 보이는 컨트롤."
+
+#: showroom/data.py:117
+msgid "Ambient utility interfaces and concept pieces."
+msgstr "잔잔한 유틸리티 인터페이스와 컨셉 작업."
+
+#: showroom/data.py:118
+msgid "Music controls, calculators, and compact widgets."
+msgstr "음악 컨트롤, 계산기, 작은 위젯."
+
+#: showroom/data.py:119
+msgid "Visual experiments centered on softness."
+msgstr "부드러움에 초점을 둔 시각 실험."
+
+#: showroom/data.py:122
+msgid "Low contrast often hurts accessibility."
+msgstr "낮은 대비는 접근성을 자주 해칩니다."
+
+#: showroom/data.py:123
+msgid "Dense information layouts lose clarity quickly."
+msgstr "정보 밀도가 높은 레이아웃에서는 명확함이 빠르게 무너집니다."
+
+#: showroom/data.py:124
+msgid "The style can feel dated if applied indiscriminately."
+msgstr "무분별하게 적용하면 스타일이 낡아 보일 수 있습니다."
+
+#: showroom/data.py:126
+msgid "Use one base surface color, then create depth only through paired light and dark shadows with generous corner radius."
+msgstr "하나의 기본 표면색을 쓰고, 넉넉한 모서리 반경과 밝고 어두운 그림자 쌍으로만 깊이감을 만드세요."
+
+#: showroom/data.py:128
+msgid "One of the cleanest pure references for soft raised and inset surfaces, focused almost entirely on the core visual effect."
+msgstr "부드럽게 솟거나 들어간 표면을 가장 순수하게 보여주는 참고 사례 중 하나로, 거의 전적으로 핵심 시각 효과에 집중합니다."
+
+#: showroom/data.py:129
+msgid "A full kit demo that applies the style across cards, forms, alerts, and panels, making the depth system easy to study."
+msgstr "카드, 폼, 알림, 패널 전반에 스타일을 적용한 전체 키트 데모로, 깊이 시스템을 학습하기 좋습니다."
+
+#: showroom/data.py:130
+msgid "Not purely neumorphic, but its soft panels, rounded controls, and gentle depth cues make it a useful real-product reference."
+msgstr "완전히 뉴모피즘은 아니지만, 부드러운 패널과 둥근 컨트롤, 온화한 깊이 표현 덕분에 실제 제품 참고 사례로 유용합니다."
+
+#: showroom/data.py:135
+msgid "Swiss / Typographic"
+msgstr "스위스 / 타이포그래픽"
+
+#: showroom/data.py:136
+msgid "Grids, order, and typography as the main image."
+msgstr "그리드, 질서, 타이포그래피가 주인공인 이미지."
+
+#: showroom/data.py:139
+msgid "Grid"
+msgstr "그리드"
+
+#: showroom/data.py:139
+msgid "Type"
+msgstr "타입"
+
+#: showroom/data.py:139
+msgid "Structure"
+msgstr "구조"
+
+#: showroom/data.py:140
+msgid "Swiss style prioritizes clarity through disciplined grids, strong alignment, and typography-led composition with almost architectural restraint."
+msgstr "스위스 스타일은 거의 건축적인 절제에 가까운 그리드, 정렬, 타이포그래피 중심 구성을 통해 명확함을 우선합니다."
+
+#: showroom/data.py:142
+msgid "Visible grid logic and left-aligned type."
+msgstr "보이는 그리드 논리와 좌측 정렬 타이포."
+
+#: showroom/data.py:143
+msgid "Sans-serif typography with strong scale and rhythm."
+msgstr "강한 스케일과 리듬을 가진 산세리프 타이포그래피."
+
+#: showroom/data.py:144
+msgid "Sparse, intentional use of color and rules."
+msgstr "성기지만 의도적인 색과 룰의 사용."
+
+#: showroom/data.py:147
+msgid "Cultural institutions and editorial products."
+msgstr "문화 기관과 에디토리얼 성격의 제품."
+
+#: showroom/data.py:148
+msgid "B2B sites that need instant structure and trust."
+msgstr "즉각적인 구조감과 신뢰가 필요한 B2B 사이트."
+
+#: showroom/data.py:149
+msgid "Landing pages with strong copywriting."
+msgstr "카피라이팅이 강한 랜딩 페이지."
+
+#: showroom/data.py:152
+msgid "Rigid composition can feel cold without warmth elsewhere."
+msgstr "다른 곳에서 따뜻함을 보완하지 않으면 딱딱한 구성이 차갑게 느껴질 수 있습니다."
+
+#: showroom/data.py:153
+msgid "Poor copy becomes very obvious."
+msgstr "약한 카피는 훨씬 더 도드라집니다."
+
+#: showroom/data.py:154
+msgid "Breaking the grid carelessly weakens the style."
+msgstr "그리드를 무심코 깨면 스타일이 약해집니다."
+
+#: showroom/data.py:156
+msgid "Build on a strict column grid, keep alignment disciplined, choose one neutral sans, and let scale and spacing create drama."
+msgstr "엄격한 컬럼 그리드 위에 구성하고, 정렬을 엄격히 지키며, 중립적인 산세리프 하나를 고르고, 크기와 간격이 드라마를 만들게 두세요."
+
+#: showroom/data.py:158
+msgid "A strong living example of grid-based layout, flush-left structure, and typography doing most of the visual work."
+msgstr "그리드 기반 레이아웃, 좌측 정렬 구조, 타이포그래피가 시각적 역할 대부분을 맡는 강력한 실전 예시입니다."
+
+#: showroom/data.py:159
+msgid "An explicit educational demo of Swiss alignment, hierarchy, and restrained color, useful when learning the style visually."
+msgstr "스위스식 정렬, 위계, 절제된 색 사용을 직접적으로 보여주는 교육용 데모로, 시각적으로 스타일을 학습할 때 유용합니다."
+
+#: showroom/data.py:160
+msgid "A site connected to a major Swiss designer whose work makes typographic structure and compositional rigor easy to trace."
+msgstr "주요 스위스 디자이너와 연결된 사이트로, 타이포 구조와 구성의 엄격함을 추적하기 쉽습니다."
+
+#: showroom/data.py:165
+msgid "Playful Illustration"
+msgstr "플레이풀 일러스트레이션"
+
+#: showroom/data.py:166
+msgid "Expressive shapes, characters, and friendly motion cues."
+msgstr "표정 있는 형태, 캐릭터, 그리고 친근한 모션 단서."
+
+#: showroom/data.py:169
+msgid "Friendly"
+msgstr "친근함"
+
+#: showroom/data.py:169
+msgid "Illustrated"
+msgstr "일러스트 중심"
+
+#: showroom/data.py:169
+msgid "Expressive"
+msgstr "표현적"
+
+#: showroom/data.py:170
+msgid "Playful Illustration uses drawn elements, cheerful palettes, and animated composition to make digital products feel human and approachable."
+msgstr "플레이풀 일러스트레이션은 그려진 요소, 밝은 팔레트, 움직임이 느껴지는 구성을 통해 디지털 제품을 더 인간적이고 친근하게 만듭니다."
+
+#: showroom/data.py:172
+msgid "Custom illustrations, blobs, and stickers."
+msgstr "커스텀 일러스트, 블롭 형태, 스티커 요소."
+
+#: showroom/data.py:173
+msgid "Rounded type or soft geometric layout blocks."
+msgstr "둥근 타이포 또는 부드러운 기하학 레이아웃 블록."
+
+#: showroom/data.py:174
+msgid "Bright palettes with a sense of movement."
+msgstr "움직임이 느껴지는 밝은 팔레트."
+
+#: showroom/data.py:177
+msgid "Education, wellness, and kid-friendly products."
+msgstr "교육, 웰니스, 아동 친화적 제품."
+
+#: showroom/data.py:178
+msgid "Brand storytelling and onboarding pages."
+msgstr "브랜드 스토리텔링과 온보딩 페이지."
+
+#: showroom/data.py:179
+msgid "Services that need emotional warmth."
+msgstr "감정적 온기가 필요한 서비스."
+
+#: showroom/data.py:182
+msgid "Too many illustration styles create inconsistency."
+msgstr "일러스트 스타일이 너무 많으면 일관성이 깨집니다."
+
+#: showroom/data.py:183
+msgid "Excess whimsy can undercut credibility."
+msgstr "과한 장난기는 신뢰감을 낮출 수 있습니다."
+
+#: showroom/data.py:184
+msgid "Busy scenes can distract from calls to action."
+msgstr "복잡한 장면은 CTA에서 시선을 빼앗을 수 있습니다."
+
+#: showroom/data.py:186
+msgid "Anchor the page with a friendly illustration style, use rounded cards, keep copy short, and support the mood with buoyant color."
+msgstr "친근한 일러스트 스타일로 페이지를 고정하고, 둥근 카드와 짧은 카피, 경쾌한 색으로 분위기를 보완해 보세요."
+
+#: showroom/data.py:188
+msgid "Mascot-led product storytelling, bold color, and unmistakable character work make it one of the strongest playful references online."
+msgstr "마스코트 중심의 제품 스토리텔링, 대담한 색, 분명한 캐릭터 작업이 이 사이트를 가장 강한 플레이풀 레퍼런스 중 하나로 만듭니다."
+
+#: showroom/data.py:189
+msgid "Combines illustration, brand personality, and friendly marketing language to soften a fairly technical product category."
+msgstr "일러스트, 브랜드 개성, 친근한 마케팅 언어를 결합해 비교적 기술적인 제품 카테고리를 부드럽게 만듭니다."
+
+#: showroom/data.py:190
+msgid "Uses soft characters and approachable visual language to keep the product calm, warm, and emotionally legible."
+msgstr "부드러운 캐릭터와 친근한 시각 언어로 제품을 차분하고 따뜻하며 감정적으로 이해하기 쉽게 만듭니다."
+
+#: showroom/data.py:195
+msgid "Dark Tech / SaaS"
+msgstr "다크 테크 / SaaS"
+
+#: showroom/data.py:196
+msgid "High-contrast product marketing with a futuristic edge."
+msgstr "미래적인 결을 가진 고대비 제품 마케팅."
+
+#: showroom/data.py:199
+msgid "Dark"
+msgstr "다크"
+
+#: showroom/data.py:199 showroom/data.py:259
+msgid "Product"
+msgstr "제품"
+
+#: showroom/data.py:199
+msgid "Futuristic"
+msgstr "미래적"
+
+#: showroom/data.py:200
+msgid "Dark Tech / SaaS combines dark surfaces, data-like graphics, and glow accents to frame software as advanced, fast, and credible."
+msgstr "다크 테크 / SaaS 스타일은 어두운 표면, 데이터 같은 그래픽, 글로우 포인트를 통해 소프트웨어를 진보적이고 빠르며 신뢰감 있게 보이게 합니다."
+
+#: showroom/data.py:202
+msgid "Near-black backgrounds with cool neon accents."
+msgstr "거의 검정에 가까운 배경과 차가운 네온 포인트."
+
+#: showroom/data.py:203
+msgid "Code-like UI panels, charts, and product frames."
+msgstr "코드 같은 UI 패널, 차트, 제품 프레임."
+
+#: showroom/data.py:204
+msgid "Sharp type, gradients, and controlled glow."
+msgstr "날카로운 타이포, 그라디언트, 절제된 글로우."
+
+#: showroom/data.py:207
+msgid "Developer tools and AI products."
+msgstr "개발자 도구와 AI 제품."
+
+#: showroom/data.py:208
+msgid "Security, infrastructure, and analytics companies."
+msgstr "보안, 인프라, 분석 기업."
+
+#: showroom/data.py:209
+msgid "Product launch pages that need technical authority."
+msgstr "기술적 권위감이 필요한 제품 출시 페이지."
+
+#: showroom/data.py:212
+msgid "Without hierarchy, dark layouts become muddy."
+msgstr "위계가 없으면 다크 레이아웃은 금방 탁해집니다."
+
+#: showroom/data.py:213
+msgid "Glow everywhere reduces readability."
+msgstr "글로우를 과하게 쓰면 가독성이 떨어집니다."
+
+#: showroom/data.py:214
+msgid "Generic product mockups can feel interchangeable."
+msgstr "평범한 제품 목업은 서로 비슷하게 느껴질 수 있습니다."
+
+#: showroom/data.py:216
+msgid "Use graphite and midnight tones, highlight with cyan or lime, then frame screenshots inside clean product windows with crisp labels."
+msgstr "그래파이트와 미드나이트 톤을 쓰고, 시안이나 라임으로 강조한 뒤, 선명한 라벨이 있는 깔끔한 제품 윈도우 안에 스크린샷을 배치해 보세요."
+
+#: showroom/data.py:218
+msgid "A benchmark dark-tech marketing site: near-black surface, sharp product framing, and restrained but polished glow treatment."
+msgstr "다크 테크 마케팅의 기준점 같은 사이트입니다. 거의 검정에 가까운 표면, 날카로운 제품 프레이밍, 절제됐지만 세련된 글로우 처리가 특징입니다."
+
+#: showroom/data.py:219
+msgid "Combines code-adjacent visuals, dark surfaces, and crisp green accents in a way that feels deeply native to developer SaaS."
+msgstr "코드 인접 비주얼, 어두운 표면, 선명한 초록 포인트를 결합해 개발자 SaaS에 매우 자연스러운 인상을 줍니다."
+
+#: showroom/data.py:220
+msgid "High-contrast, developer-first presentation with dark UI windows and technical clarity instead of generic startup gloss."
+msgstr "다크 UI 윈도우와 기술적 명확성을 앞세운 고대비 개발자 중심 프레젠테이션으로, 일반적인 스타트업 광택과는 다릅니다."
+
+#: showroom/data.py:225
+msgid "Gradient / Aurora"
+msgstr "그라디언트 / 오로라"
+
+#: showroom/data.py:226
+msgid "Atmospheric blends and color fields that feel alive."
+msgstr "살아 움직이는 듯한 분위기 있는 색 혼합과 컬러 필드."
+
+#: showroom/data.py:229
+msgid "Gradient"
+msgstr "그라디언트"
+
+#: showroom/data.py:229
+msgid "Atmospheric"
+msgstr "분위기 있는"
+
+#: showroom/data.py:229
+msgid "Glow"
+msgstr "글로우"
+
+#: showroom/data.py:230
+msgid "Gradient / Aurora style relies on smooth chromatic blends and soft light to create emotional depth without heavy illustration or texture."
+msgstr "그라디언트 / 오로라 스타일은 거친 일러스트나 텍스처 없이도 부드러운 색 혼합과 은은한 빛으로 감정적인 깊이를 만듭니다."
+
+#: showroom/data.py:232
+msgid "Large blurred gradients and subtle movement."
+msgstr "큰 블러 처리된 그라디언트와 섬세한 움직임."
+
+#: showroom/data.py:233
+msgid "Minimal foreground UI over luminous fields."
+msgstr "빛나는 배경 위에 놓인 미니멀한 전경 UI."
+
+#: showroom/data.py:234
+msgid "Color transitions that imply depth and mood."
+msgstr "깊이와 분위기를 암시하는 색 전환."
+
+#: showroom/data.py:237
+msgid "Creative agencies and modern launch pages."
+msgstr "크리에이티브 에이전시와 현대적 런치 페이지."
+
+#: showroom/data.py:238
+msgid "Brands selling inspiration, media, or future-facing products."
+msgstr "영감, 미디어, 미래지향적 제품을 판매하는 브랜드."
+
+#: showroom/data.py:239
+msgid "Sites that need immediate visual atmosphere."
+msgstr "즉각적인 시각 분위기가 필요한 사이트."
+
+#: showroom/data.py:242
+msgid "Weak contrast can make content disappear."
+msgstr "대비가 약하면 콘텐츠가 묻혀버릴 수 있습니다."
+
+#: showroom/data.py:243
+msgid "Too many gradients create visual soup."
+msgstr "그라디언트가 너무 많으면 시각적으로 뒤섞입니다."
+
+#: showroom/data.py:244
+msgid "The style needs disciplined typography to stay premium."
+msgstr "프리미엄 느낌을 유지하려면 절제된 타이포그래피가 필요합니다."
+
+#: showroom/data.py:246
+msgid "Blend two or three high-saturation colors, blur them generously, then overlay very clear type and restrained interface chrome."
+msgstr "채도가 높은 두세 가지 색을 섞고 넉넉하게 블러한 뒤, 매우 명확한 타이포와 절제된 인터페이스 요소를 얹어보세요."
+
+#: showroom/data.py:248
+msgid "A premium product site where glow-backed gradients and atmospheric color fields are central to the brand’s visual identity."
+msgstr "글로우가 깔린 그라디언트와 분위기 있는 컬러 필드가 브랜드 정체성의 중심인 프리미엄 제품 사이트입니다."
+
+#: showroom/data.py:249
+msgid "Uses richly lit gradients, soft luminous backgrounds, and motion to create a future-facing aurora mood around the product."
+msgstr "풍부한 조명의 그라디언트, 부드러운 빛 배경, 모션을 사용해 제품 주변에 미래적인 오로라 분위기를 만듭니다."
+
+#: showroom/data.py:250
+msgid "A direct reference site for the style itself, useful because its whole product is built around aurora-like blended backgrounds."
+msgstr "제품 자체가 오로라 같은 배경 혼합 위에 구축되어 있어, 스타일 자체를 직접 참고하기 좋은 사이트입니다."
+
+#: showroom/data.py:255
+msgid "Bento UI"
+msgstr "벤토 UI"
+
+#: showroom/data.py:256
+msgid "Modular cards arranged like a curated product tray."
+msgstr "큐레이션된 제품 트레이처럼 배열된 모듈형 카드."
+
+#: showroom/data.py:259
+msgid "Modular"
+msgstr "모듈형"
+
+#: showroom/data.py:259
+msgid "Cards"
+msgstr "카드"
+
+#: showroom/data.py:260
+msgid "Bento UI organizes information into distinct but harmonious tiles, making complex products feel scannable and feature-rich."
+msgstr "벤토 UI는 정보를 분리되지만 조화로운 타일로 정리해 복잡한 제품도 쉽게 훑어볼 수 있고 기능이 풍부해 보이게 만듭니다."
+
+#: showroom/data.py:262
+msgid "Uneven card sizes inside a balanced grid."
+msgstr "균형 잡힌 그리드 안의 다양한 카드 크기."
+
+#: showroom/data.py:263
+msgid "Clear product snippets, stats, and small visuals."
+msgstr "분명한 제품 스니펫, 수치, 작은 시각 요소."
+
+#: showroom/data.py:264
+msgid "Rounded containers with generous internal spacing."
+msgstr "넉넉한 내부 간격을 가진 둥근 컨테이너."
+
+#: showroom/data.py:267
+msgid "Product marketing and feature showcases."
+msgstr "제품 마케팅과 기능 소개."
+
+#: showroom/data.py:268
+msgid "AI tools, mobile apps, and software homepages."
+msgstr "AI 도구, 모바일 앱, 소프트웨어 홈페이지."
+
+#: showroom/data.py:269
+msgid "Any site with many concise selling points."
+msgstr "짧은 판매 포인트가 많은 모든 사이트."
+
+#: showroom/data.py:272
+msgid "Without hierarchy, every tile competes equally."
+msgstr "위계가 없으면 모든 타일이 서로 경쟁하게 됩니다."
+
+#: showroom/data.py:273
+msgid "The layout becomes cluttered if cards are overfilled."
+msgstr "카드에 내용이 너무 많으면 레이아웃이 복잡해집니다."
+
+#: showroom/data.py:274
+msgid "Spacing discipline is essential."
+msgstr "간격 규율이 핵심입니다."
+
+#: showroom/data.py:276
+msgid "Compose a mixed-size card grid, vary the content density per tile, and use one unified radius, shadow, and spacing system."
+msgstr "크기가 섞인 카드 그리드를 만들고, 타일마다 정보 밀도를 달리하며, 하나의 통일된 반경, 그림자, 간격 시스템을 사용하세요."
+
+#: showroom/data.py:278
+msgid "Its homepage explicitly uses bento-like product tiles and mixed-size modules to explain many features without becoming a wall of text."
+msgstr "홈페이지에서 벤토 같은 제품 타일과 크기가 다른 모듈을 명확히 사용해 많은 기능을 설명하면서도 텍스트 벽이 되지 않습니다."
+
+#: showroom/data.py:279
+msgid "A specialized site built around bento-first dark card layouts, useful as a highly legible example of the style in isolation."
+msgstr "벤토 우선의 다크 카드 레이아웃을 중심으로 구성된 전문 사이트로, 스타일만 떼어 놓고 보기 좋은 고가독성 예시입니다."
+
+#: showroom/data.py:280
+msgid "An explicit component gallery for bento layouts, useful for studying card hierarchy, asymmetry, and modular feature presentation."
+msgstr "벤토 레이아웃을 위한 명시적인 컴포넌트 갤러리로, 카드 위계, 비대칭, 모듈형 기능 소개를 공부하기 좋습니다."
+
+#: showroom/data.py:285
+msgid "Editorial / Magazine"
+msgstr "에디토리얼 / 매거진"
+
+#: showroom/data.py:286
+msgid "Narrative layouts that borrow from print publishing."
+msgstr "인쇄 출판의 감각을 빌려온 서사적 레이아웃."
+
+#: showroom/data.py:289
+msgid "Narrative"
+msgstr "서사적"
+
+#: showroom/data.py:289
+msgid "Print"
+msgstr "인쇄물"
+
+#: showroom/data.py:289
+msgid "Sophisticated"
+msgstr "세련됨"
+
+#: showroom/data.py:290
+msgid "Editorial / Magazine style uses dramatic type, strong image crops, and reading rhythm to create a curated storytelling experience."
+msgstr "에디토리얼 / 매거진 스타일은 극적인 타이포, 강한 이미지 크롭, 읽기의 리듬을 이용해 큐레이션된 스토리텔링 경험을 만듭니다."
+
+#: showroom/data.py:292
+msgid "Large serif headlines and asymmetric composition."
+msgstr "큰 세리프 헤드라인과 비대칭 구성."
+
+#: showroom/data.py:293
+msgid "Photography-led sections with captions and side notes."
+msgstr "사진 중심 섹션과 캡션, 사이드 노트."
+
+#: showroom/data.py:294
+msgid "A page flow that feels paced rather than purely utilitarian."
+msgstr "단순한 기능 흐름보다 호흡이 느껴지는 페이지 전개."
+
+#: showroom/data.py:297
+msgid "Fashion, culture, and premium brand storytelling."
+msgstr "패션, 문화, 프리미엄 브랜드 스토리텔링."
+
+#: showroom/data.py:298
+msgid "Founder stories, journals, and campaign pages."
+msgstr "창업자 스토리, 저널, 캠페인 페이지."
+
+#: showroom/data.py:299
+msgid "Sites where tone matters as much as utility."
+msgstr "기능만큼 톤이 중요한 사이트."
+
+#: showroom/data.py:302
+msgid "Long-form layouts need careful responsive handling."
+msgstr "롱폼 레이아웃은 반응형 처리가 특히 중요합니다."
+
+#: showroom/data.py:303
+msgid "Bad typography choices undermine the whole approach."
+msgstr "부적절한 타이포 선택은 전체 접근을 무너뜨립니다."
+
+#: showroom/data.py:304
+msgid "Too much ornament can slow scanning."
+msgstr "장식이 많으면 빠르게 훑기 어려워집니다."
+
+#: showroom/data.py:306
+msgid "Lead with a striking serif headline, use confident image crops, and alternate dense text moments with breathing space."
+msgstr "강한 세리프 헤드라인으로 시작하고, 자신감 있는 이미지 크롭과 여유 있는 공간 사이에 밀도 높은 텍스트 순간을 배치해 보세요."
+
+#: showroom/data.py:308
+msgid "A calm but unmistakably editorial site where image pacing, typography, and rhythm feel inherited from print publishing."
+msgstr "차분하지만 분명히 에디토리얼한 사이트로, 이미지 호흡과 타이포, 리듬이 인쇄 출판에서 이어진 느낌을 줍니다."
+
+#: showroom/data.py:309
+msgid "A fashion and culture publication with strong headline treatment, image-led flow, and clearly magazine-born layout instincts."
+msgstr "강한 헤드라인 처리, 이미지 중심 흐름, 잡지에서 온 듯한 레이아웃 감각이 분명한 패션·문화 매체입니다."
+
+#: showroom/data.py:310
+msgid "Not a magazine, but an excellent commerce-meets-editorial reference thanks to its typography, reading rhythm, and art-directed pacing."
+msgstr "잡지는 아니지만, 타이포그래피와 읽기 리듬, 아트디렉션된 전개 덕분에 커머스와 에디토리얼이 만나는 훌륭한 참고 사례입니다."
+
+#: showroom/data.py:315
+msgid "Retro / Y2K"
+msgstr "레트로 / Y2K"
+
+#: showroom/data.py:316
+msgid "Chrome shine, nostalgic curves, and internet-era energy."
+msgstr "크롬 광택, 향수를 자극하는 곡선, 그리고 인터넷 시대의 에너지."
+
+#: showroom/data.py:319
+msgid "Nostalgic"
+msgstr "향수적"
+
+#: showroom/data.py:319
+msgid "Chrome"
+msgstr "크롬"
+
+#: showroom/data.py:319
+msgid "Energetic"
+msgstr "에너지감"
+
+#: showroom/data.py:320
+msgid "Retro / Y2K revives late-90s and early-2000s web aesthetics through metallic highlights, glossy surfaces, and playful digital nostalgia."
+msgstr "레트로 / Y2K는 금속성 하이라이트, 광택 있는 표면, 장난기 있는 디지털 향수를 통해 1990년대 말과 2000년대 초 웹 미학을 되살립니다."
+
+#: showroom/data.py:322
+msgid "Iridescent gradients, chrome text, and shiny pills."
+msgstr "오팔빛 그라디언트, 크롬 텍스트, 반짝이는 필 형태."
+
+#: showroom/data.py:323
+msgid "Rounded windows, stars, and layered stickers."
+msgstr "둥근 창, 별, 겹쳐진 스티커 요소."
+
+#: showroom/data.py:324
+msgid "High-energy color with a pop-culture tone."
+msgstr "팝 컬처 톤을 가진 고에너지 컬러."
+
+#: showroom/data.py:327
+msgid "Fashion, music, and youth-oriented campaigns."
+msgstr "패션, 음악, 청년층 대상 캠페인."
+
+#: showroom/data.py:328
+msgid "Brands leaning into nostalgia or internet culture."
+msgstr "향수나 인터넷 문화를 전면에 내세우는 브랜드."
+
+#: showroom/data.py:329
+msgid "Microsites that need strong personality fast."
+msgstr "짧은 시간 안에 강한 개성을 보여줘야 하는 마이크로사이트."
+
+#: showroom/data.py:332
+msgid "It can drift into parody quickly."
+msgstr "자칫하면 쉽게 패러디처럼 보일 수 있습니다."
+
+#: showroom/data.py:333
+msgid "Too many effects lower perceived quality."
+msgstr "효과가 너무 많으면 완성도가 낮아 보입니다."
+
+#: showroom/data.py:334
+msgid "Content still needs clear modern hierarchy."
+msgstr "콘텐츠에는 여전히 현대적인 명확한 위계가 필요합니다."
+
+#: showroom/data.py:336
+msgid "Mix chrome gradients with bubble-like UI, add sparkle details sparingly, and keep the layout controlled so the nostalgia reads intentional."
+msgstr "크롬 그라디언트와 버블 같은 UI를 섞고, 반짝임 디테일은 조금만 더하며, 레이아웃은 통제해서 향수가 의도적으로 읽히게 하세요."
+
+#: showroom/data.py:338
+msgid "An explicit archive of retro web graphics, blinkies, and nostalgic ornament that captures Y2K internet culture directly."
+msgstr "레트로 웹 그래픽, 블링키, 향수 어린 장식을 직접적으로 보여주는 아카이브로, Y2K 인터넷 문화를 바로 체감할 수 있습니다."
+
+#: showroom/data.py:339
+msgid "A historic anti-clean web-art site whose ASCII, raw HTML, and chaotic digital energy still feel deeply tied to early-2000s internet aesthetics."
+msgstr "ASCII, 거친 HTML, 혼란스러운 디지털 에너지가 여전히 2000년대 초 인터넷 미학과 깊게 연결되는 역사적인 안티-클린 웹아트 사이트입니다."
+
+#: showroom/data.py:340
+msgid "A more commercial example where nostalgic chrome-pop energy and 2000s visual references are used overtly as the brand language."
+msgstr "향수 어린 크롬 팝 에너지와 2000년대 시각 레퍼런스를 브랜드 언어로 대놓고 사용하는 보다 상업적인 예시입니다."
+
+#: showroom/data.py:345
+msgid "Material / System UI"
+msgstr "머티리얼 / 시스템 UI"
+
+#: showroom/data.py:346
+msgid "Polished components, clear states, and dependable rhythm."
+msgstr "정제된 컴포넌트, 분명한 상태, 믿을 수 있는 리듬."
+
+#: showroom/data.py:349
+msgid "System"
+msgstr "시스템"
+
+#: showroom/data.py:349
+msgid "Clear"
+msgstr "명확함"
+
+#: showroom/data.py:349
+msgid "Scalable"
+msgstr "확장 가능"
+
+#: showroom/data.py:350
+msgid "Material / System UI emphasizes consistency, accessible structure, and component logic so interfaces feel immediately legible and scalable."
+msgstr "머티리얼 / 시스템 UI는 일관성, 접근 가능한 구조, 컴포넌트 논리를 강조해 인터페이스를 즉시 읽기 쉽고 확장 가능하게 느끼게 합니다."
+
+#: showroom/data.py:352
+msgid "Component-driven layout with clear states."
+msgstr "분명한 상태를 가진 컴포넌트 중심 레이아웃."
+
+#: showroom/data.py:353
+msgid "Layered surfaces, subtle elevation, and consistent spacing."
+msgstr "레이어드 표면, 섬세한 입체감, 일관된 간격."
+
+#: showroom/data.py:354
+msgid "Practical typography and icon-supported interaction."
+msgstr "실용적인 타이포그래피와 아이콘 기반 상호작용."
+
+#: showroom/data.py:357
+msgid "Product ecosystems and utility-focused interfaces."
+msgstr "제품 생태계와 유틸리티 중심 인터페이스."
+
+#: showroom/data.py:358
+msgid "Design systems and internal tools."
+msgstr "디자인 시스템과 내부 도구."
+
+#: showroom/data.py:359
+msgid "Teams that need a stable visual foundation."
+msgstr "안정적인 시각 기반이 필요한 팀."
+
+#: showroom/data.py:362
+msgid "Generic execution can feel anonymous."
+msgstr "평범한 실행은 개성이 없게 느껴질 수 있습니다."
+
+#: showroom/data.py:363
+msgid "Too much component uniformity reduces personality."
+msgstr "컴포넌트가 지나치게 균일하면 개성이 줄어듭니다."
+
+#: showroom/data.py:364
+msgid "Elevation and spacing need consistency to work."
+msgstr "입체감과 간격은 일관성이 있어야 제대로 작동합니다."
+
+#: showroom/data.py:366
+msgid "Use a clear spacing scale, reliable component states, a practical sans, and one accent color to add identity without breaking order."
+msgstr "명확한 간격 스케일, 신뢰할 수 있는 컴포넌트 상태, 실용적인 산세리프, 하나의 포인트 컬러를 사용해 질서를 깨지 않으면서 개성을 더하세요."
+
+#: showroom/data.py:368
+msgid "The canonical reference for material design logic, showing the system’s component behavior, hierarchy, and layout philosophy directly."
+msgstr "머티리얼 디자인 논리의 정석적인 참고 사례로, 시스템의 컴포넌트 동작, 위계, 레이아웃 철학을 직접 보여줍니다."
+
+#: showroom/data.py:369
+msgid "A large-scale Google product surface with system-driven cards, iconography, spacing, and clearly structured feature modules."
+msgstr "시스템 중심 카드, 아이콘, 간격, 분명한 구조의 기능 모듈을 보여주는 대규모 구글 제품 표면입니다."
+
+#: showroom/data.py:370
+msgid "A commerce-facing example of clean modular sections and dependable UI rhythm with a distinctly system-led feel."
+msgstr "깔끔한 모듈형 섹션과 신뢰감 있는 UI 리듬을 가진 커머스형 예시로, 시스템 주도의 느낌이 분명합니다."
+
+#: showroom/views.py:73 showroom/views.py:74 showroom/views.py:75 showroom/views.py:76 showroom/views.py:77 showroom/views.py:78 showroom/views.py:79 showroom/views.py:80 showroom/views.py:81 showroom/views.py:82 showroom/views.py:83 showroom/views.py:84
+msgid "Strict"
+msgstr "직접 예시"
+
+#: showroom/views.py:73 showroom/views.py:74 showroom/views.py:77 showroom/views.py:82 showroom/views.py:83 showroom/views.py:101
+msgid "Hybrid"
+msgstr "혼합형"
+
+#: showroom/views.py:74 showroom/views.py:76
+msgid "Adjacent"
+msgstr "인접 예시"
+
+#: showroom/views.py:108
+msgid "Top pick"
+msgstr "우선 추천"
+
+#: showroom/views.py:108
+msgid "Reference"
+msgstr "참고 예시"
+
+#: templates/showroom/base.html:8 templates/showroom/base.html:24 templates/showroom/detail.html:4 templates/showroom/home.html:4 templates/showroom/home.html:10
+msgid "Web Design Styles 12"
+msgstr "웹 디자인 스타일 12"
+
+#: templates/showroom/base.html:11
+msgid "A polished Django showroom that introduces 12 web design styles through visual cards and concise design guidance."
+msgstr "시각 카드와 간결한 디자인 설명으로 12가지 웹 디자인 스타일을 소개하는 세련된 Django 쇼룸입니다."
+
+#: templates/showroom/base.html:23
+msgid "Showroom"
+msgstr "쇼룸"
+
+#: templates/showroom/base.html:26
+msgid "Primary"
+msgstr "주요 탐색"
+
+#: templates/showroom/base.html:27
+msgid "Gallery"
+msgstr "갤러리"
+
+#: templates/showroom/base.html:28
+msgid "Language switcher"
+msgstr "언어 전환"
+
+#: templates/showroom/base.html:58
+msgid "A lightweight Django showroom for visually understanding common web design styles."
+msgstr "대표적인 웹 디자인 스타일을 시각적으로 이해하기 위한 가벼운 Django 쇼룸입니다."
+
+#: templates/showroom/detail.html:8
+msgid "Back to gallery"
+msgstr "갤러리로 돌아가기"
+
+#: templates/showroom/detail.html:14
+#, python-format
+msgid "%(style_name)s hero illustration"
+msgstr "%(style_name)s 히어로 일러스트"
+
+#: templates/showroom/detail.html:18
+msgid "Style Detail"
+msgstr "스타일 상세"
+
+#: templates/showroom/detail.html:21 templates/showroom/home.html:73
+#, python-format
+msgid "%(style_name)s keywords"
+msgstr "%(style_name)s 키워드"
+
+#: templates/showroom/detail.html:29
+#, python-format
+msgid "%(style_name)s guidance"
+msgstr "%(style_name)s 안내"
+
+#: templates/showroom/detail.html:31
+msgid "Definition"
+msgstr "정의"
+
+#: templates/showroom/detail.html:36
+msgid "Key Visual Cues"
+msgstr "핵심 시각 단서"
+
+#: templates/showroom/detail.html:45
+msgid "Good For"
+msgstr "잘 맞는 경우"
+
+#: templates/showroom/detail.html:54
+msgid "Watch-outs"
+msgstr "주의할 점"
+
+#: templates/showroom/detail.html:63
+msgid "Quick Recipe"
+msgstr "빠른 레시피"
+
+#: templates/showroom/detail.html:70
+msgid "Representative Sites"
+msgstr "대표 사이트"
+
+#: templates/showroom/detail.html:71
+msgid "See the style in the wild"
+msgstr "실제 사이트에서 스타일 보기"
+
+#: templates/showroom/detail.html:99
+msgid "Why it fits"
+msgstr "왜 이 스타일인가"
+
+#: templates/showroom/detail.html:109
+#, python-format
+msgid "%(site_name)s opens in a new tab"
+msgstr "%(site_name)s 사이트가 새 탭에서 열립니다"
+
+#: templates/showroom/detail.html:111
+msgid "Visit site"
+msgstr "사이트 보기"
+
+#: templates/showroom/detail.html:119
+msgid "Style navigation"
+msgstr "스타일 이동"
+
+#: templates/showroom/detail.html:122
+msgid "Previous"
+msgstr "이전"
+
+#: templates/showroom/detail.html:129
+msgid "Next"
+msgstr "다음"
+
+#: templates/showroom/home.html:9
+msgid "Visual Learning Library"
+msgstr "비주얼 학습 라이브러리"
+
+#: templates/showroom/home.html:12
+msgid "A compact visual showroom for people who know the names of design styles but want a clearer feel for how each one actually looks and behaves."
+msgstr "디자인 스타일 이름은 알지만 각 스타일이 실제로 어떻게 보이고 작동하는지 더 선명하게 느끼고 싶은 사람들을 위한 작은 비주얼 쇼룸입니다."
+
+#: templates/showroom/home.html:20
+#, python-format
+msgid "%(count)s curated direction"
+msgid_plural "%(count)s curated directions"
+msgstr[0] "%(count)s개의 큐레이션된 방향"
+
+#: templates/showroom/home.html:23
+msgid "Image-forward cards"
+msgstr "이미지 중심 카드"
+
+#: templates/showroom/home.html:24
+msgid "Definition and visual cues"
+msgstr "정의와 시각 단서"
+
+#: templates/showroom/home.html:25
+msgid "Quick recipes for recognition"
+msgstr "빠르게 구분하는 레시피"
+
+#: templates/showroom/home.html:32
+msgid "Design Gallery"
+msgstr "디자인 갤러리"
+
+#: templates/showroom/home.html:33
+msgid "Explore the 12 styles"
+msgstr "12가지 스타일 살펴보기"
+
+#: templates/showroom/home.html:44
+#, python-format
+msgid "%(style_name)s thumbnail preview"
+msgstr "%(style_name)s 썸네일 미리보기"
+
+#: templates/showroom/home.html:78
+#, python-format
+msgid "%(style_name)s representative sites"
+msgstr "%(style_name)s 대표 사이트"
+
+#: templates/showroom/home.html:79
+msgid "Live examples"
+msgstr "실제 예시"
+
+#: templates/showroom/base.html:27
+msgid "Visit www.thesysm.com in a new tab"
+msgstr "새 탭에서 www.thesysm.com 방문"

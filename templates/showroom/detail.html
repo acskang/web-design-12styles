@@ -1,0 +1,140 @@
+{% extends "showroom/base.html" %}
+{% load static i18n %}
+
+{% block title %}{{ style.name }} | {% trans "Web Design Styles 12" %}{% endblock %}
+
+{% block content %}
+<article class="detail-page">
+    <a class="back-link" href="{% url 'showroom:home' %}">{% trans "Back to gallery" %}</a>
+
+    <section class="detail-hero reveal">
+        <div class="detail-hero__media">
+            <img
+                src="{% static style.hero_image %}"
+                alt="{% blocktrans with style_name=style.name %}{{ style_name }} hero illustration{% endblocktrans %}"
+            >
+        </div>
+        <div class="detail-hero__copy">
+            <p class="eyebrow">{% trans "Style Detail" %}</p>
+            <h1
+                class="detail-hero__title"
+                data-autofit-title
+                data-autofit-min="2.3"
+                data-autofit-max="6.2"
+            >{{ style.name }}</h1>
+            <p class="lead">{{ style.subtitle }}</p>
+            <ul class="badge-list" aria-label="{% blocktrans with style_name=style.name %}{{ style_name }} keywords{% endblocktrans %}">
+                {% for keyword in style.keywords %}
+                <li>{{ keyword }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+    <section class="detail-sections reveal" aria-label="{% blocktrans with style_name=style.name %}{{ style_name }} guidance{% endblocktrans %}">
+        <div class="content-card">
+            <h2>{% trans "Definition" %}</h2>
+            <p>{{ style.definition }}</p>
+        </div>
+
+        <div class="content-card">
+            <h2>{% trans "Key Visual Cues" %}</h2>
+            <ul class="detail-list">
+                {% for item in style.key_visual_cues %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2>{% trans "Good For" %}</h2>
+            <ul class="detail-list">
+                {% for item in style.good_for %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2>{% trans "Watch-outs" %}</h2>
+            <ul class="detail-list">
+                {% for item in style.watch_outs %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="content-card content-card--wide">
+            <h2>{% trans "Quick Recipe" %}</h2>
+            <p>{{ style.quick_recipe }}</p>
+        </div>
+    </section>
+
+    <section class="reference-sites reveal" aria-labelledby="reference-sites-heading">
+        <div class="section-heading">
+            <p class="eyebrow">{% trans "Representative Sites" %}</p>
+            <h2 id="reference-sites-heading">{% trans "See the style in the wild" %}</h2>
+        </div>
+
+        <div class="reference-grid">
+            {% for site in style.representative_sites %}
+            <article class="reference-card">
+                <div
+                    class="reference-card__preview"
+                    style="--preview-bg: {{ site.preview_background }}; --preview-ink: {{ site.preview_ink }};"
+                    data-preview-shell
+                    aria-hidden="true"
+                >
+                    <img
+                        class="reference-card__shot site-shot"
+                        src="{{ site.screenshot_url }}"
+                        alt=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                    >
+                    <div class="reference-card__preview-badge">{{ site.initials }}</div>
+                </div>
+                <div class="reference-card__body">
+                    <div class="reference-card__meta">
+                        <span class="reference-card__source">{{ site.rank_label }}</span>
+                        <p class="reference-card__domain">{{ site.domain }}</p>
+                    </div>
+                    <h3>{{ site.name }}</h3>
+                    <div class="reference-card__submeta">
+                        <p class="reference-card__label">{% trans "Why it fits" %}</p>
+                        <span class="reference-card__confidence reference-card__confidence--{{ site.confidence_key }}">{{ site.confidence_label }}</span>
+                    </div>
+                    <p>{{ site.intro }}</p>
+                </div>
+                <a
+                    class="reference-card__link"
+                    href="{{ site.url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="{% blocktrans with site_name=site.name %}{{ site_name }} opens in a new tab{% endblocktrans %}"
+                >
+                    <span>{% trans "Visit site" %}</span>
+                    <span class="reference-card__link-icon" aria-hidden="true">↗</span>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <nav class="pager reveal" aria-label="{% trans 'Style navigation' %}">
+        {% if previous_style %}
+        <a class="pager__link" href="{% url 'showroom:detail' previous_style.slug %}">
+            <span class="pager__eyebrow">{% trans "Previous" %}</span>
+            <span>{{ previous_style.name }}</span>
+        </a>
+        {% endif %}
+
+        {% if next_style %}
+        <a class="pager__link pager__link--next" href="{% url 'showroom:detail' next_style.slug %}">
+            <span class="pager__eyebrow">{% trans "Next" %}</span>
+            <span>{{ next_style.name }}</span>
+        </a>
+        {% endif %}
+    </nav>
+</article>
+{% endblock %}

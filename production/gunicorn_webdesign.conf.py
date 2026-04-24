@@ -1,0 +1,9 @@
+bind = "unix:/run/gunicorn_webdesign.sock"
+workers = 2
+threads = 2
+timeout = 60
+graceful_timeout = 15
+accesslog = "-"
+errorlog = "-"
+capture_output = True
+loglevel = "info"

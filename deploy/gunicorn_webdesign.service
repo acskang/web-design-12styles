@@ -1,0 +1,21 @@
+[Unit]
+Description=gunicorn webdesign service
+Requires=gunicorn_webdesign.socket
+After=network.target
+
+[Service]
+Type=notify
+User=cskang
+Group=www-data
+WorkingDirectory=/home/cskang/ganzskang/WebDesignStyle12
+EnvironmentFile=-/etc/webdesign/webdesign.env
+Environment=DJANGO_SETTINGS_MODULE=design12.settings
+ExecStart=/home/cskang/miniconda3/envs/dj5/bin/gunicorn --config production/gunicorn_webdesign.conf.py design12.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+KillMode=mixed
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target

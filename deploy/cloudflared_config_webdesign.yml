@@ -1,0 +1,49 @@
+tunnel: www
+credentials-file: /etc/cloudflared/00ba54ea-c46c-4bfd-9304-bba6f01fdf2b.json
+ingress:
+  - hostname: www.thesysm.com
+    service: http://127.0.0.1:80
+
+  - hostname: listening.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_listening.sock
+      httpHostHeader: listening.thesysm.com
+
+  - hostname: movies.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_movies.sock
+      httpHostHeader: movies.thesysm.com
+
+  - hostname: address.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_address.sock
+      httpHostHeader: address.thesysm.com
+
+  - hostname: thepeach.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_thepeach.sock
+      httpHostHeader: thepeach.thesysm.com
+
+  - hostname: anglangl.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_anglangl.sock
+      httpHostHeader: anglangl.thesysm.com
+
+  - hostname: erp.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_theerp.sock
+      httpHostHeader: erp.thesysm.com
+
+  - hostname: webdesign.thesysm.com
+    service: http://localhost
+    originRequest:
+      unixSocketPath: /run/gunicorn_webdesign.sock
+      httpHostHeader: webdesign.thesysm.com
+
+  - service: http_status:404

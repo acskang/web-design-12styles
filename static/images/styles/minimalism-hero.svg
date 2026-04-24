@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title">
+  <title>Minimalism hero</title>
+  <rect width="1400" height="900" fill="#f6f0e8"/>
+  <rect x="94" y="86" width="1212" height="728" rx="44" fill="#fffdf9"/>
+  <rect x="178" y="190" width="290" height="18" rx="9" fill="#dad0c2"/>
+  <rect x="178" y="250" width="516" height="108" rx="24" fill="#191817"/>
+  <rect x="178" y="406" width="418" height="18" rx="9" fill="#bdb2a5"/>
+  <rect x="178" y="446" width="358" height="18" rx="9" fill="#cec4b7"/>
+  <rect x="926" y="182" width="218" height="296" rx="26" fill="#ece5da"/>
+  <rect x="794" y="542" width="350" height="168" rx="26" fill="#f1ebe2"/>
+  <rect x="178" y="546" width="154" height="58" rx="29" fill="#ff6b3d"/>
+</svg>
